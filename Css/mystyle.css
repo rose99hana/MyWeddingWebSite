@@ -1,0 +1,235 @@
+body {
+	margin: 0;
+	font-family: "Lato";
+}
+
+#header {
+	background-color: #F6F6F6;
+	text-align: center;
+}
+
+.nav ul li {
+	display: inline-block;
+}
+
+.nav ul li a {
+	display: inline-block;
+	padding: 10px 14px;
+	font-size: 18px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-family: "Cambria",Georgia,Serif;
+}
+
+.nav ul li a:hover {
+	background-color: #cceeff;
+}
+.nav {
+	overflow: auto;
+	text-align: center;
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	opacity: 0.7;
+	z-index: 10;
+}
+
+.nav:hover {
+	opacity: 1;
+}
+
+.nav ul {
+	padding: 0px;
+	margin: 10px;
+}
+
+.nav .left-nav {
+	float: left;
+}
+
+.nav .right-nav {
+	float: right;
+}
+
+.headerDecoration {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 60px 0 0 0;
+	margin: 60px 0 0 0;
+}
+
+.headerDecoration span {
+	font-size: 40px;
+	text-align: center;
+	padding: 60px 30px;
+	color: #800000;
+	font-family: "Lucida Handwriting", Georgia,Cambria;
+}
+
+.headerDecoration img {
+	height: 170px;
+}
+
+.weddingTime {
+	font-family: "French Script MT", Kunstler Script, Lucida Handwriting;
+	font-size: 40px;
+	color: #804000;
+}
+
+.headerImage {
+	height: 700px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#content {
+	text-align: center;
+}
+
+.title {
+	font-family: "Josefin Slab", Segoe Print;
+	text-align: center;
+	margin: 40px 0 20px 0;
+	color: #888888;
+}
+
+.title h2 {
+	font-size: 40px;
+}
+
+.title p {
+	font-size: 30px;
+}
+
+.imgBoxContainer {
+	text-align: center;
+	position: relative;
+	padding-top: 20px;
+}
+
+.imgBoxContainer:hover {
+	background-color: #f2f2f2;
+}
+
+.changeImage {
+	position: absolute;
+	display: block;
+	border: 2px solid #1ac6ff;
+	font-size: 40px;
+	padding: 10px 20px;
+	background-color: #80dfff;
+	transform: translate(-50%, -50%);
+	opacity: 0.3;
+	color: white;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.changeImage:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.prev {
+	top: 50%;
+	left: 12%;
+}
+
+.next {
+	top: 50%;
+	left: 88%;
+}
+
+.imageBox {
+	padding: 15px;
+	background-color: #cce6ff;
+	width: 60%;
+	margin: auto;
+}
+
+.PlaceImageBox {
+	padding: 15px;
+	background-color: #cce6ff;
+	width: 30%;
+	margin: auto;
+}
+
+.textBlock {
+	color: #734d26;
+	width: 60%;
+	margin: 20px auto;
+	text-align: justify;
+}
+
+.articleSeparator {
+	border-top: 3px dotted #ad874c;
+	width: 80%;
+	margin: 60px auto 60px auto;
+}
+
+.secSeparator {
+	border-top: 1px dotted #ad874c;
+	width: 60%;
+	margin: 20px auto 20px auto;
+}
+
+.articleContainer {
+	margin: 20px 0;
+	position: relative;
+}
+
+.articleBorder {
+	width: 620px;
+	margin: auto;
+}
+
+.articleContent {
+	position: absolute;
+	color: #ff66b3;
+	text-align: center;
+	width: 350px;
+	height: 360px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.articleContent h2 {
+	font-family: "Sacramento", Source Code Pro;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.articleContent hr {
+	margin-bottom: 30px;
+}
+
+.articleContent .Rsvp {
+	border: 1px solid;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.articleContent a {
+	color: inherit;
+}
+
+.Rsvp:hover {
+	background-color: #ffe6f2;
+	cursor: pointer;
+}
+
+#footer {
+	background-color: #808080;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#footer p {
+	display: inline-block;
+	color: white;
+	margin: 40px auto;
+}
